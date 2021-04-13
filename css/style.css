@@ -1,0 +1,151 @@
+body {
+  background-color: #d1f8fa;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  color: #40514E;
+}
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 5rem;
+  margin: 0;
+  color: #66bfbf;
+}
+h2 {
+  color: #69bebe;
+}
+a,
+h3 {
+  color: #11999e;
+}
+span {
+  font-variant: small-caps;
+}
+p {
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+}
+
+.top-container {
+  margin: 10%;
+}
+.bottom-container {
+  background-color: #66bfbf;
+}
+.cloud {
+  width: 10%;
+  height: auto;
+}
+#sun {
+  width: 10%;
+  position: absolute;
+  top: 2%;
+  right: 27%;
+}
+#cloud-1 {
+  position: absolute;
+  right: 25%;
+  top: 10%;
+}
+#cloud-2 {
+  position: absolute;
+  left: 27%;
+}
+
+#mountain {
+  width: 60%;
+  position: absolute;
+  top: 10pc;
+  right: 20%;
+}
+.middle-container {
+  margin: 10%;
+  position: relative;
+  top: 15pc;
+  min-zoom: 100;
+}
+.skills {
+  position: relative;
+  
+}
+.skill-row {
+  position: relative;
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+.contact-me {
+  position: relative;
+}
+.bottom-container {
+  position: relative;
+  top: 25pc;
+  padding: 10%;
+    text-decoration: none;
+}
+#profile-image {
+  width: 20%;
+  margin: 5pc;
+}
+.icons{
+    width: 20%;
+}
+.icons-small-1 {
+  width: 30%;
+  float: left;
+  margin: 1pc 1pc 5pc;
+}
+.icons-small-2{
+    width: 30%;
+    float: right;
+    margin: 1pc 1pc 5pc 0;
+}
+#top-text {
+  font-weight: normal;
+  margin: 0;
+}
+.divider{
+    position: relative;
+   width: 5pc; 
+    border-style: dotted none none none;
+    border-width: 0.5pc;
+    left: 42%;
+    margin: 2pc;
+    border-color: #567272;
+}
+#footer-name{
+    position: relative;
+    font-size: 0.75rem;
+    top:30px;
+    color: #eaf6f6;
+    text-decoration: none;
+}
+
+.btn{
+    position: relative;
+    top: 2pc;
+    background-image: linear-gradient(#66bfbf,#3c6c6c);
+    
+    color: whitesmoke;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: medium;
+    padding: 0.75pc;
+    
+}
+.btn:hover
+{
+     background-image: linear-gradient(#539696,#89eaea);
+}
+.footer-link{
+    text-decoration: none;
+    color: #cbf1f1;
+}
+.footer-link:hover{
+    color: #40514E;
+}
+#twitter{
+    width: 30px;
+}
